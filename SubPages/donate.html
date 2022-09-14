@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Donate</title>
+    </head>
+    <body>
+        <h3>Donate</h3>
+        <form onsubmit="return clicked()"">
+            <label>Enter your Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="name"></label><br><br>
+            <label>Enter your Mail ID: &nbsp&nbsp&nbsp<input type="email" id="mailid" ></label><br><br>
+            <label>Enter your donation amount: &nbsp&nbsp<input type="number" id="amount" ></label><br><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button type="submit" id="Generate" >Generate Payment Link</button>&nbsp&nbsp&nbsp
+            <button type="reset" id="clear" >Clear</button><br>
+        </form><br>
+        <script type="text/javascript">
+            function clicked(){
+   
+                document.writeln("Thank You!! for you interest in donation to a great cause!!<br>")
+                document.writeln("Please proceed with the payment through the link that you will receive to your mail.")
+                
+                
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Create Account</title>
+    </head>
+    <body>
+        <h3>Create Account</h3>
+        <form onsubmit="return clicked()"">
+            <label>Enter your Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="text" id="name" required></label><br><br>
+            <label>Enter your Mail ID: &nbsp&nbsp&nbsp<input type="email" id="mailid" required></label><br><br>
+            <label>Enter your Username: <input type="text" id="uname" required></label><br><br>
+            <label>Enter your Password: &nbsp<input type="password" id="pwd" required></label><br><br>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <button type="submit" id="submit" >Create Account</button>&nbsp&nbsp&nbsp
+            <button type="reset" id="clear" >Clear</button><br>
+        </form><br>
+        <script type="text/javascript">
+            function clicked(){
+   
+                document.writeln("Account created successfullly!!")
+                
+                
+            }
+        </script>
+        <a href="/MAIN.html">Go back to main page</a>
+    </body>
+</html>
